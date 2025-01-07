@@ -41,22 +41,29 @@ delete запрос по маршруту '/user/{user_id}', теперь:
 []
 
 2. POST '/user/{username}/{age}' # username - UrbanUser, age - 24
+
 ![image](https://github.com/user-attachments/assets/f3150d6c-92b3-4e3b-aa1a-a64c350a9c3b)
 
 3. POST '/user/{username}/{age}' # username - UrbanTest, age - 36
+
 ![image](https://github.com/user-attachments/assets/44c4f336-31d0-44a8-bda9-02c222a464fb)
 
 4. POST '/user/{username}/{age}' # username - Admin, age - 42
+
 ![image](https://github.com/user-attachments/assets/9576366a-8133-4bc4-af38-8d94533c5c1f)
 
 5. PUT '/user/{user_id}/{username}/{age}' # user_id - 1, username - UrbanProfi, age - 28
+
 ![image](https://github.com/user-attachments/assets/30b50e52-509d-4f4d-829e-ba57000d7188)
 
 6. DELETE '/user/{user_id}' # user_id - 2
+
 ![image](https://github.com/user-attachments/assets/782768c5-c1b2-45ec-833e-7aae538efa1d)
 
 7. GET '/users'
+
 ![image](https://github.com/user-attachments/assets/542eee86-0089-4e2f-b676-b8be6b345aea)
 
 8. DELETE '/user/{user_id}' # user_id - 2
+
 ![image](https://github.com/user-attachments/assets/e30b17cb-a95e-41d8-b397-16177c19277c)
